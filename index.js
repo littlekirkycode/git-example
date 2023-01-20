@@ -9,6 +9,7 @@ while(truth = false){
 if(numberChoice > 0 && numberChoice <= 10){
   if(numberChoice == randomNum){
     console.log("Congrats you win!");
+    truth = true;
   } else{    
     numberChoice = prompt("Pick another number between 1 and 10: ");
   }
